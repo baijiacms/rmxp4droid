@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.rmxp4droid.btn.ExitButton
+        android:id="@+id/buttonExit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/exit"
+          android:visibility="visible"  />
+
+    <ImageView
+        android:keepScreenOn="true"
+        android:contentDescription="@string/loding_text"
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/seekBar1"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/loding"/>
+
+    <com.rmxp4droid.MySeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"/>
+
+
+
+</RelativeLayout>

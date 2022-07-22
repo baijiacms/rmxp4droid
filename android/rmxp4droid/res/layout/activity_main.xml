@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<com.rmxp4droid.BaseCanvas
+	    android:id="@+id/BaseCanvas"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	   />
+		
+    <com.rmxp4droid.btn.GameButton
+        android:id="@+id/btnUp"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/up"
+       />
+
+    <com.rmxp4droid.btn.GameButton
+        android:id="@+id/btnDown"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/down"
+       />
+
+    <com.rmxp4droid.btn.GameButton
+        android:id="@+id/btnRight"
+        android:layout_width="32dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="62dp"
+        android:layout_marginLeft="101dp"
+        android:background="@drawable/right"
+       />
+
+    <com.rmxp4droid.btn.GameButton
+        android:id="@+id/btnLeft"
+        android:layout_width="32dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="62dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/left"
+       />
+
+    <com.rmxp4droid.btn.GameButton
+        android:id="@+id/buttonA"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_alignRight="@+id/buttonb"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/a"
+       />
+      <com.rmxp4droid.btn.GameButton
+        android:id="@+id/buttonb"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_alignRight="@+id/buttonc"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/b" 
+             />
+        
+    <com.rmxp4droid.btn.GameButton
+        android:id="@+id/buttonc"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/c"
+       />
+    <com.rmxp4droid.btn.ExitButton
+        android:id="@+id/buttonExit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/exit"
+     />
+
+
+
+
+</RelativeLayout>

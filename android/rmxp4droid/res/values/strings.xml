@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">rmxp4droid</string>
+   <string name="loding_name">LOADING_NOW</string>
+      <string name="loding_text">Now loading Please wait.</string>
+        <string name="no_files_in_folder">no files in folder</string>
+     <string name="refresh">refresh</string>
+</resources>
