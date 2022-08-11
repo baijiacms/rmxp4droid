@@ -1,7 +1,8 @@
-Rmxp4droid was released in 2013. Ten years later, it was open source.
+RPG MAKER XP on Android
+
+Rmxp4droid was released in 2013.It`s nearly 10 years later.Open source now.
 
 Because the code is old, it is not sure whether the new version of Android can still run.
-
 
 
 Tips:
