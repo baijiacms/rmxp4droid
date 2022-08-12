@@ -1,3 +1,5 @@
+# rmxp4droid
+
 RPG MAKER XP on Android
 
 Rmxp4droid was released in 2013.It`s nearly 10 years later.Open source now.
@@ -5,7 +7,7 @@ Rmxp4droid was released in 2013.It`s nearly 10 years later.Open source now.
 Because the code is old, it is not sure whether the new version of Android can still run.
 
 
-Source Tips:
+### Source Tips:
 
 
 This path is the encrypted RGSS file:
@@ -18,7 +20,7 @@ rmxp4droid/tree/main/pc/src/com/publish/rb/
 
 
 
-Rmxp Game Deployment steps:
+### Game Deployment:
 
 1. Copy the complete rmxp project to the SD card (including RTP materials, and the game.ini file in the game root directory)
 
@@ -29,7 +31,7 @@ Rmxp Game Deployment steps:
 4. Experience the game
 
 
-Common Problem:
+### Common Problem:
 
 1. Clicking "exit game" in the rmxp game title menu will cause rmxp4droid to fake death
 
@@ -42,8 +44,6 @@ Answer: not all rmxp games are perfectly supported. RGSS custom scripts may caus
 3. What is the automatic exit of the program when the progress bar reaches about 80%?
 
 Answer: the remaining 20% is the script file of scripts.rxdata in the rmxp project. If there is a problem with the custom script, it will automatically exit here.
-
-
 
 ![image text](https://github.com/baijiacms/rmxp4droid/raw/main/0.png)
 ![image text](https://github.com/baijiacms/rmxp4droid/raw/main/1.png)
