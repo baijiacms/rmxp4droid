@@ -12,7 +12,6 @@ This path is the encrypted RGSS file:
 
 baijiacms/rmxp4droid/tree/main/pc/src/jruby/data/ruby.key
 
-
 The decrypted RGSS files are in this directory:
 
 rmxp4droid/tree/main/pc/src/com/publish/rb/
